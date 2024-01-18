@@ -131,3 +131,90 @@
   right: 0;
   display: flex;
 }
+@media screen and (max-width: 425px) {
+  .instagram img {
+    width: 10px;
+    height: 10px;
+  }
+  .instagram p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 5px;
+    margin: 0;
+    color: white;
+  }
+  .imageName {
+    font-size: 20px;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+      sans-serif;
+    width: 100%;
+
+    font-weight: bold;
+  }
+  .theTable > tbody > tr:not(:first-child) > td {
+    /* Styles for all rows except the first row */
+    border: 1px solid black;
+    margin: 0;
+    padding: 10px;
+    font-size: 5px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .awards {
+    height: 50px;
+    width: 100%;
+    font-size: 10px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+  }
+  .theTable tbody:first-child td {
+    border: 1px solid black;
+    margin: 0;
+    padding: 20px;
+    font-size: 10px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .img {
+    margin-top: 36px;
+    height: 200px;
+    width: 100%;
+  }
+  .lang {
+    position: relative;
+    font-size: 14px;
+    margin: 0px 30px 120px 0px;
+    cursor: pointer;
+    border: 1px solid black;
+  }
+  .subLang {
+    font-size: 10px;
+    position: absolute;
+    visibility: hidden;
+    top: 10%;
+    padding: 0px 20px;
+    color: blue;
+  }
+  .bio {
+    font-size: 6px;
+    height: 100%;
+    width: 600px;
+  }
+  .name {
+    font-size: 20px;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+      sans-serif;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+  }
+}
