@@ -95,7 +95,7 @@ function toLang(e) {
     "language",
     id + `<img src="/images/angle-down-solid.svg" alt="" />`
   );
-  window.open(`/Kiril-Cvetkovski/${id}.html`, "_self");
+  window.location.href = `/Kiril-Cvetkovski/${id}.html`;
   localStorage.setItem("path", ["here"]);
   localStorage.setItem("vid", ["here"]);
 }
