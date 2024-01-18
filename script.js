@@ -51,9 +51,9 @@ const awardPictures = (e) => {
     window.location.href = "pictures.html";
   }
   if (identification === "balkan") {
-    items = ["videos/balkanVid.mp4"];
+    items = ["images/kiko.jpg"];
     newItems = JSON.stringify(items);
-    localStorage.setItem("vid", newItems);
+    localStorage.setItem("path", newItems);
     window.location.href = "pictures.html";
   }
 };
@@ -78,24 +78,6 @@ if (elements != "here") {
       });
     }
   }
-}
-
-if (!picture) {
-  localStorage.setItem("path", ["here"]);
-  localStorage.setItem("vid", ["here"]);
-} else {
-  const videos = localStorage.getItem("vid");
-  const newVids = JSON.parse(videos);
-  console.log(newVids);
-  newVids.map((el) => {
-    let vid = document.createElement("video");
-    let src = document.createElement("source");
-    vid.controls = true;
-    src.src = el;
-    src.type = "video/mp4";
-    vid.appendChild(src);
-    picture.appendChild(vid);
-  });
 }
 
 function redirect() {
