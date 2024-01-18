@@ -53,7 +53,7 @@
   display: flex;
 }
 .theTable {
-  width: 33%;
+  width: 100%;
   height: 100%;
   display: flex;
   flex-direction: column;
@@ -67,6 +67,7 @@
   align-items: center;
 }
 .tableDiv {
+  width: 33%;
   display: flex;
   flex-direction: column;
 }
