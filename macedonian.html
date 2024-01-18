@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="name">Кирил Цветковски</div>
+    <div class="bioImg">
+      <div class="tableDiv">
+        <div class="awards">Карате натпревари</div>
+        <table class="theTable">
+          <tr>
+            <td>Настан</td>
+            <td>Година</td>
+            <td>Поставување</td>
+          </tr>
+          <tr>
+            <td>Metalurg competition</td>
+            <td>2019</td>
+            <td>3то место <img src="./images/medals 3.png" alt="3" /></td>
+          </tr>
+          <tr>
+            <td>International championship</td>
+            <td>2021</td>
+            <td>2ро место<img src="./images/medals 2.png" alt="3" /></td>
+          </tr>
+          <tr>
+            <td
+              onclick="awardPictures(event)"
+              style="cursor: pointer; color: blue"
+              id="soli"
+            >
+              Solidarnost open
+            </td>
+            <td>2021</td>
+            <td>1во место<img src="./images/medals 1.png" alt="3" /></td>
+          </tr>
+          <tr>
+            <td>Struga open</td>
+            <td>2021</td>
+            <td>1во место<img src="./images/medals 1.png" alt="3" /></td>
+          </tr>
+          <tr>
+            <td
+              onclick="awardPictures(event)"
+              style="cursor: pointer; color: blue"
+              id="meta"
+            >
+              Metalurg competition
+            </td>
+            <td>2021</td>
+            <td>1во место<img src="./images/medals 1.png" alt="3" /></td>
+          </tr>
+          <tr>
+            <td>Balkan championship</td>
+            <td>2021</td>
+            <td>5то место</td>
+          </tr>
+          <tr>
+            <td
+              onclick="awardPictures(event)"
+              style="cursor: pointer; color: blue"
+              id="teto"
+            >
+              Tetova open
+            </td>
+            <td>2021</td>
+            <td>1во место<img src="./images/medals 1.png" alt="3" /></td>
+          </tr>
+          <tr>
+            <td
+              onclick="awardPictures(event)"
+              style="cursor: pointer; color: blue"
+              id="kjus"
+            >
+              Kjustendil open
+            </td>
+            <td>2022</td>
+            <td>3то место<img src="./images/medals 3.png" alt="3" /></td>
+          </tr>
+          <tr>
+            <td>Grand prix open</td>
+            <td>2022</td>
+            <td>3то место<img src="./images/medals 3.png" alt="3" /></td>
+          </tr>
+          <tr>
+            <td
+              onclick="awardPictures(event)"
+              style="cursor: pointer; color: blue"
+              id="inter"
+            >
+              International championship
+            </td>
+            <td>2022</td>
+            <td>1во место<img src="./images/medals 1.png" alt="3" /></td>
+          </tr>
+          <tr>
+            <td
+              onclick="awardPictures(event)"
+              style="cursor: pointer; color: blue"
+              id="metaF"
+            >
+              Metalurg friendly competition
+            </td>
+            <td>2022</td>
+            <td>1во место<img src="./images/medals 1.png" alt="3" /></td>
+          </tr>
+          <tr>
+            <td>Montenegro open</td>
+            <td>2022</td>
+            <td>4то место</td>
+          </tr>
+          <tr>
+            <td>Balkan championship</td>
+            <td>2022</td>
+            <td>4то место</td>
+          </tr>
+        </table>
+        <div class="awards">Натпревари во кошарка</div>
+        <table class="theTable">
+          <tr>
+            <td>Настан</td>
+            <td>Година</td>
+            <td>Поставување</td>
+          </tr>
+
+          <tr>
+            <td>Final</td>
+            <td>2022</td>
+            <td>1во место<img src="./images/medals 1.png" alt="3" /></td>
+          </tr>
+          <tr>
+            <td>IBC Belgrade</td>
+            <td>2022/2023</td>
+            <td>1во место<img src="./images/medals 1.png" alt="3" /></td>
+          </tr>
+          <tr>
+            <td>IBC Belgrade</td>
+            <td>2023/2024</td>
+            <td>4то место</td>
+          </tr>
+        </table>
+      </div>
+      <div style="display: flex; flex-direction: column; align-items: center">
+        <div
+          class="lang"
+          onclick="change()"
+          id="language"
+          style="border: 1px solid black"
+        >
+          Macedonian<img src="/images/angle-down-solid.svg" alt="" />
+        </div>
+        <div class="subLang" id="sub">
+          <div onclick="toLang(event)" id="english">English</div>
+          <div onclick="toLang(event)" id="macedonian">Македонски</div>
+          <div onclick="toLang(event)" id="french">Français</div>
+          <div onclick="toLang(event)" id="german">Deutsch</div>
+        </div>
+        <div class="instagram" onclick="redirect()">
+          <img src="images/instagram.png" alt="inta" />
+          <p>@kirilcvetkovski8</p>
+        </div>
+      </div>
+      <div class="bio">
+        <h2>Кошаркарски профил</h2>
+        <div>
+          Кирил Цветковски е македонски кошаркар од Скопје роден на 03.04.2012,
+          на висина од 159cm/5,2Ft и 41kg/90pounds.Кирил игра за БК Феникс како
+          шпиц го носи бројот 7. Настапи Кирил во многу натпревари.Кирил и
+          неговиот клуб имаат многу победи во Македонската категорија У12
+          освојувајќи едно финале во сезоната 2022/2023. Тој постојано тренира
+          со својот тренер. Најновото натпреварување беше ИБЦ натпревар во
+          Белград каде Феникс го освои 4то место.
+
+          <div>
+            <h2>Карате профил</h2>
+            <p>
+              Кирил 4 години се бореше со карате во карате клубот КК Металург
+              што беше меѓународен шампион за 2021 година во категоријата до 40
+              килограми 2012. Во 2021 година Кирил и неговиот клуб отидоа на
+              многу натпревари како балканското првенство за деца и многу
+              повеќе. Во 2020 година беше на меѓународното првенство на
+              Македонија каде го освои 2. место.Во 2020 и 2021 година на Балкан
+              првенства Кирил ги освои 4то и 5то место.Кирил се откажа од
+              каратето во летото 2022 година.Последниот натпревар на Кирил во
+              карате беше Балканското првенство за деца 2022 година.
+            </p>
+          </div>
+        </div>
+        <div class="imageName">Кирил</div>
+        <div class="img"><img src="images/cigan.jpg" alt="kiril" /></div>
+      </div>
+      <script src="script.js"></script>
+      <body>
+        <html></html>
+      </body>
+    </div>
+  </body>
+</html>
