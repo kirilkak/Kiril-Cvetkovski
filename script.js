@@ -95,7 +95,7 @@ function toLang(e) {
     "language",
     id + `<img src="/images/angle-down-solid.svg" alt="" />`
   );
-  window.open(`/`, "_self");
+  window.open(`/${id}.html`, "_self");
   localStorage.setItem("path", ["here"]);
   localStorage.setItem("vid", ["here"]);
 }
