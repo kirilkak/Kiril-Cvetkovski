@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="name">Kiril Cvetkovski</div>
+    <div class="bioImg">
+      <div class="tableDiv">
+        <div class="awards">Compétitions de karaté</div>
+        <table class="theTable">
+          <tr>
+            <td>Événement</td>
+            <td>Année</td>
+            <td>Placement</td>
+          </tr>
+          <tr>
+            <td>Metalurg competition</td>
+            <td>2019</td>
+            <td>3th lieu <img src="./images/medals 3.png" alt="3" /></td>
+          </tr>
+          <tr>
+            <td>International championship</td>
+            <td>2021</td>
+            <td>2nd lieu<img src="./images/medals 2.png" alt="3" /></td>
+          </tr>
+          <tr>
+            <td
+              onclick="awardPictures(event)"
+              style="cursor: pointer; color: blue"
+              id="soli"
+            >
+              Solidarnost open
+            </td>
+            <td>2021</td>
+            <td>1st lieu<img src="./images/medals 1.png" alt="3" /></td>
+          </tr>
+          <tr>
+            <td>Struga open</td>
+            <td>2021</td>
+            <td>1st lieu<img src="./images/medals 1.png" alt="3" /></td>
+          </tr>
+          <tr>
+            <td
+              onclick="awardPictures(event)"
+              style="cursor: pointer; color: blue"
+              id="meta"
+            >
+              Metalurg competition
+            </td>
+            <td>2021</td>
+            <td>1st lieu<img src="./images/medals 1.png" alt="3" /></td>
+          </tr>
+          <tr>
+            <td>Balkan championship</td>
+            <td>2021</td>
+            <td>5th lieu</td>
+          </tr>
+          <tr>
+            <td
+              onclick="awardPictures(event)"
+              style="cursor: pointer; color: blue"
+              id="teto"
+            >
+              Tetova open
+            </td>
+            <td>2021</td>
+            <td>1st lieu<img src="./images/medals 1.png" alt="3" /></td>
+          </tr>
+          <tr>
+            <td
+              onclick="awardPictures(event)"
+              style="cursor: pointer; color: blue"
+              id="kjus"
+            >
+              Kjustendil open
+            </td>
+            <td>2022</td>
+            <td>3th lieu<img src="./images/medals 3.png" alt="3" /></td>
+          </tr>
+          <tr>
+            <td>Grand prix open</td>
+            <td>2022</td>
+            <td>3th lieu<img src="./images/medals 3.png" alt="3" /></td>
+          </tr>
+          <tr>
+            <td
+              onclick="awardPictures(event)"
+              style="cursor: pointer; color: blue"
+              id="inter"
+            >
+              International championship
+            </td>
+            <td>2022</td>
+            <td>1st lieu<img src="./images/medals 1.png" alt="3" /></td>
+          </tr>
+          <tr>
+            <td
+              onclick="awardPictures(event)"
+              style="cursor: pointer; color: blue"
+              id="metaF"
+            >
+              Metalurg friendly competition
+            </td>
+            <td>2022</td>
+            <td>1st lieu<img src="./images/medals 1.png" alt="3" /></td>
+          </tr>
+          <tr>
+            <td>Montenegro open</td>
+            <td>2022</td>
+            <td>4th lieu</td>
+          </tr>
+          <tr>
+            <td>Balkan championship</td>
+            <td>2022</td>
+            <td>4th lieu</td>
+          </tr>
+        </table>
+        <div class="awards">Compétitions de basket</div>
+        <table class="theTable">
+          <tr>
+            <td>Événement</td>
+            <td>Année</td>
+            <td>Placement</td>
+          </tr>
+
+          <tr>
+            <td>Final</td>
+            <td>2022</td>
+            <td>1st lieu<img src="./images/medals 1.png" alt="3" /></td>
+          </tr>
+          <tr>
+            <td>IBC Belgrade</td>
+            <td>2022/2023</td>
+            <td>1st lieu<img src="./images/medals 1.png" alt="3" /></td>
+          </tr>
+          <tr>
+            <td>IBC Belgrade</td>
+            <td>2023/2024</td>
+            <td>4th lieu</td>
+          </tr>
+        </table>
+      </div>
+      <div style="display: flex; flex-direction: column; align-items: center">
+        <div
+          class="lang"
+          onclick="change()"
+          id="language"
+          style="border: 1px solid black"
+        >
+          French<img src="/images/angle-down-solid.svg" alt="" />
+        </div>
+        <div class="subLang" id="sub">
+          <div onclick="toLang(event)" id="english">English</div>
+          <div onclick="toLang(event)" id="macedonian">Македонски</div>
+          <div onclick="toLang(event)" id="french">Français</div>
+          <div onclick="toLang(event)" id="german">Deutsch</div>
+        </div>
+        <div class="instagram" onclick="redirect()">
+          <img src="images/instagram.png" alt="inta" />
+          <p>@kirilcvetkovski8</p>
+        </div>
+      </div>
+      <div class="bio">
+        <h2>Profil de basket-ball</h2>
+        <div>
+          Kiril Cvetkovski est un basketteur macédonien de Skopje né le
+          03.04.2012, à une hauteur de 159 cm/5,2 pieds et 41 kg/90 livres.
+          Kiril joue pour BC Feniks en tant que meneur, il porte le numéro 7.
+          Kiril a joué dans de nombreuses compétitions. Kiril et son club ont de
+          nombreuses victoires dans le La catégorie macédonienne U12 a remporté
+          une finale lors de la saison 2022/2023. Il s'entraîne tout le temps
+          avec son entraîneur. La compétition la plus récente était Concours IBC
+          à Belgrade où Feniks a remporté la 4ème place.
+
+          <div>
+            <h2>Profil de karaté</h2>
+            <p>
+              Kiril a combattu le karaté pendant 4 ans dans le club de karaté KK
+              Metalurg où il était un champion international de l'année 2021
+              dans la catégorie 40 kilos 2012. En 2021, Kiril et son club se
+              sont rendus à de nombreux des compétitions comme le championnat
+              des Balkans pour les enfants et bien plus encore. En 2020, il
+              participait au championnat international de Macédoine où il a
+              décroché la 2ème place. En 2020 et 2021 sur les Balkans
+              championnats Kiril a remporté les 4ème et 5ème places. Kiril a
+              quitté le karaté en l'été de l'année 2022. La dernière compétition
+              de karaté de Kiril a eu lieu le championnat des Balkans pour les
+              enfants 2022.
+            </p>
+          </div>
+        </div>
+        <div class="imageName">Kiril</div>
+        <div class="img"><img src="images/cigan.jpg" alt="kiril" /></div>
+      </div>
+      <script src="script.js"></script>
+      <body>
+        <html></html>
+      </body>
+    </div>
+  </body>
+</html>
